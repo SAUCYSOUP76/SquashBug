@@ -1,0 +1,3 @@
+# SquashBug
+
+Alpha build
