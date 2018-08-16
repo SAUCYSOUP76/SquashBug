@@ -5,7 +5,8 @@ Alpha build
 Dependencies:
 node.js, electron
 
-Build 
+Build:
+
 cd SquashBug
 1) "npm init"
 2) npm install --save electron
