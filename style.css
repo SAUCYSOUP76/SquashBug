@@ -23,7 +23,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     padding:0;   
 }
 #leftmenu{
-    width: 100px;
+    width: 150px;
     min-height:100%;
     max-height:100%;
     height: 100%;
@@ -36,8 +36,32 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     position: fixed;
     overflow:hidden;
     padding:0;
-    float:left;
-    
+    float: left;    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    position: fixed;
+    overflow: auto;
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+.last{
+    margin-top: 369px;
 }
 #content{
     margin-left: 50%;

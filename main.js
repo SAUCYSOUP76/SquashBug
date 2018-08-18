@@ -7,14 +7,18 @@ const {app, BrowserWindow, Menu} = electron;
 //SET ICON
 
 //SET ENV
-process.env.NODE_ENV = '';
+process.env.NODE_ENV = 'production';
 
 let mainWindow;
 
 //Listen for app to be ready
 app.on('ready', function(){
 //Create new window
-mainWindow = new BrowserWindow({icon: path.join(__dirname, 'assets/icons/icon.png')});
+mainWindow = new BrowserWindow({
+    minWidth: 1200, minHeight: 600,
+    maxWidth: 1200, maxHeight: 600,
+    icon: path.join(__dirname, 'assets/icons/icon.png')
+});
 //Load html into window
 mainWindow.loadURL(url.format({
     pathname: path.join(__dirname, 'mainWindow.html'),
