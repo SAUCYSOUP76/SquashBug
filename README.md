@@ -3,7 +3,7 @@
 Alpha build
 
 Dependencies:
-node.js, electron
+node.js, electron, npm
 
 Build:
 
