@@ -16,5 +16,13 @@
   },
   "devDependencies": {
     "electron-packager": "^12.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SAUCYSOUP76/SquashBug.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SAUCYSOUP76/SquashBug/issues"
+  },
+  "homepage": "https://github.com/SAUCYSOUP76/SquashBug#readme"
 }
